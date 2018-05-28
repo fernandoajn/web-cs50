@@ -1,0 +1,25 @@
+body{
+  background-color: white;
+  font-family: 'Arial',sans-serif;
+}
+
+.flex-container{
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*row, column, row-reverse, column-reverse*/
+/* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+*  flex-flow: row wrap;
+*/
+}
+
+.flex-container > div{
+  background-color: #f1f1f1;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+
+/* The display property specifies the display behavior (the type of rendering box) of an element. */
